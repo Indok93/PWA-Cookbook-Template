@@ -1,13 +1,13 @@
 {
     "name": "PWA CookBook",
 	"short_name": "CookBook",
+    "description": "Awesome application that will help you achieve your dreams.",
 	"start_url": "./index.html",
 	"id": "./index.html",
 	"display": "standalone",
 	"background_color": "#ffffff",
 	"theme_color": "#ffffff",
 	"orientation": "portrait-primary",
-    "description": "Awesome application that will help you achieve your dreams.",
     "icons": [
         {
             "src": "./assets/AppImages/android/android-launchericon-48-48.png",
