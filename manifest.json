@@ -8,6 +8,19 @@
 	"background_color": "#ffffff",
 	"theme_color": "#ffffff",
 	"orientation": "portrait-primary",
+    "screenshots": [
+        {
+          "src": "./assets/AppImages/windows11/Wide310x150Logo.scale-400.png",
+          "sizes": "1240x600",
+          "type": "image/jpeg"
+        },
+        {
+            "src": "./assets/AppImages/windows11/Wide310x150Logo.scale-400.png",
+            "sizes": "1240x600",
+            "type": "image/jpeg",
+            "form_factor": "wide"
+          }
+      ],
     "icons": [
         {
             "src": "./assets/AppImages/ios/16.png",
