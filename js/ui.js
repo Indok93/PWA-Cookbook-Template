@@ -6,3 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const forms = document.querySelectorAll('.side-form');
   M.Sidenav.init(forms, {edge: 'left'});
 });
+
+// Registrering af serviceworker fil
+if('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('./sw.js')
+	.then(reg => console.log('service worker registered', reg))
+	.catch(err => console.error('service worker not registered', err)) 
+}
